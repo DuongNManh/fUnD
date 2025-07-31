@@ -134,5 +134,3 @@ Imagine a team building a web-based product listing app. Using the SDLC:
 - Each team member has clearly defined roles, reducing ambiguity and overlaps.
 
 ---
-
-Would you like to proceed to the **next lesson on SDLC models** (like Waterfall vs. Agile)?
