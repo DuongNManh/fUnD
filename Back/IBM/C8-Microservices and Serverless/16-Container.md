@@ -46,7 +46,7 @@ Docker has led to a growing ecosystem of container tools and has become the **st
 
 Here's a typical workflow:
 
-```
+```plaintext
 App source code + Dependencies
          ↓
     Dockerfile blueprint
