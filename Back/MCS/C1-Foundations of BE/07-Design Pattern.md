@@ -31,7 +31,7 @@ The **common solutions** that address recurring problems are called **design pat
   * Configuration managers
   * Database connections
 
-```plaintext
+```cpp
 Class Singleton
 -------------------------
 - instance (private static)
@@ -52,7 +52,7 @@ Class Singleton
 
 * Bridges incompatible interfaces so objects can work together.
 
-```plaintext
+```cpp
 RoundHole expects: GetRadius()
 SquarePeg provides: GetWidth()
 

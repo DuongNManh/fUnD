@@ -1,10 +1,10 @@
-## 🌐 Domain Name System (DNS)
+# 🌐 Domain Name System (DNS)
 
 The **Domain Name System (DNS)** is a fundamental Internet service that translates **human-readable names** (like `example.com`) into **IP addresses** (like `93.184.216.34`), which computers use to communicate.
 
 ---
 
-### 🔁 What DNS Does
+## 🔁 What DNS Does
 
 ```txt
 You enter in browser:   https://www.example.com

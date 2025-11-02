@@ -9,7 +9,7 @@ This creates **ambiguity** about which inherited method or property should be us
 
 ## 🧩 The Diamond Shape
 
-```plaintext
+```cpp
         A (Base Class)
        / \
       /   \

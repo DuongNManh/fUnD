@@ -33,7 +33,7 @@ Imagine sorting cards in your hand:
 
 ### 🔍 Visual Example
 
-![Insertion sort](image.png)
+![Insertion sort](insertion_sort_1.png)
 
 ---
 
@@ -64,7 +64,8 @@ INSERTION-SORT(A)
 
 ### 🎞️ Animated Visualization
 
-![Insertion Sort Animation](InsertionSort.gif)
+![Insertion Sort Animation](insertion_sort_2.gif)
+
 ---
 
 ## 🐍 Python Example

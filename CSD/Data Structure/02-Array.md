@@ -4,7 +4,7 @@
 
 An **array** is a collection of items of the same data type stored at **contiguous (one after another) memory locations**.
 
-<img src="image-3.png" alt="Arrays" width="300" height="350">
+<img src="array_1.png" alt="Arrays" width="300" height="350">
 
 Arrays are one of the **simplest and most widely used data structures**, and they have a **small memory footprint** compared to other structures.
 
@@ -16,7 +16,7 @@ Arrays are one of the **simplest and most widely used data structures**, and the
 
 Here’s a simple view of how arrays are stored in **contiguous memory**:
 
-```
+```cpp
 Index:   0     1     2     3
 Value:  [10]  [20]  [30]  [40]
 Address:1000 1004  1008  1012  → (for 4-byte integers)
@@ -28,7 +28,7 @@ Each element sits **next to each other** in memory, which allows **constant-time
 
 ## ⏱️ Time & Space Complexity
 
-![Time Complexity](image-4.png)
+![Time Complexity](array_2.png)
 
 * **Space Complexity**:
 

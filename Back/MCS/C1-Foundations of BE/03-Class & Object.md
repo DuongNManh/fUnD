@@ -9,8 +9,7 @@ In **Object-Oriented Programming (OOP)**, the two most important building blocks
 
 Together, they allow developers to model real-world systems in code, making programs more **modular, reusable, and easier to maintain**.
 
----
-![Objects and Classes](image-2.png)
+<img src="image-2.png" alt="Objects and Classes" width="500" height="350" />
 
 ## 📘 What Are Classes?
 
@@ -20,7 +19,7 @@ Together, they allow developers to model real-world systems in code, making prog
   * **Properties (attributes/data)** → what an object *has*.
   * **Methods (functions/behaviors)** → what an object *can do*.
 
-![Class](image-3.png)
+  <img src="image-3.png" alt="Class" width="500" height="350" />
 
 ---
 
@@ -37,7 +36,7 @@ Together, they allow developers to model real-world systems in code, making prog
 
 ### Class: Book
 
-```plaintext
+```cpp
 Class: Book
 ----------------------------------
 Properties:
@@ -52,7 +51,7 @@ Methods:
 
 ### Objects (Instances)
 
-```plaintext
+```cpp
 book1 → title: "1984", author: "George Orwell", ISBN: 978-0451524935
 book2 → title: "The Hobbit", author: "J.R.R. Tolkien", ISBN: 978-0345339683
 ```
@@ -61,7 +60,7 @@ book2 → title: "The Hobbit", author: "J.R.R. Tolkien", ISBN: 978-0345339683
 
 ## 📊 Visual Diagram
 
-```plaintext
+```cpp
         Class (Blueprint)
         ┌───────────────────────┐
         │        Book           │

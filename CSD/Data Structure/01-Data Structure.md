@@ -6,7 +6,7 @@ Data structure is a storage that is used to store and organize data.
 It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
 Each data structure is good and is specialized for its own thing.
 
-![Data Structures 1](image.png)
+![Data Structures 1](data_struct_1.png)
 
 ## Operations On Data Structures
 
@@ -17,7 +17,7 @@ Each data structure is good and is specialized for its own thing.
 - **Sorting**: Having data that is sorted.
 - **Access**: How we access the data that we have on our computer.
 
-![Data Structures 2](image-1.png)
+![Data Structures 2](data_struct_2.png)
 
 ## Types of Data Structures
 
@@ -47,4 +47,4 @@ Algorithms are understood as methods of processing represented data objects to p
   
 DSA is about finding efficient ways to store and retrieve data, to perform operations on data, and to solve specific problems.
 
-![Data Structures 3](image-2.png)
+![Data Structures 3](data_struct_3.png)

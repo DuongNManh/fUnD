@@ -7,7 +7,7 @@ It works by **recursively dividing** an unsorted array into smaller subarrays, s
 
 <div align="center">
 
-![Merge Sort](image-1.png)
+![Merge Sort](merge_sort_1.png)
 
 </div>
 
@@ -90,7 +90,7 @@ function merge(leftArray, rightArray):
 
 <div align="center">
 
-![Merge Sort Gif](MergeSort.gif)
+![Merge Sort Gif](merge_sort_2.gif)
 
 </div>
 

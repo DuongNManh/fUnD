@@ -30,7 +30,7 @@ Encapsulation is the principle of **bundling methods and data into a class** whi
 
 #### Example: Bank Account
 
-```plaintext
+```cpp
 Class: BankAccount
 -------------------------------------
 - balance (private)
@@ -88,7 +88,7 @@ The child class inherits attributes and methods, but can also **extend or overri
 
 #### Example: Bird Hierarchy
 
-```plaintext
+```cpp
 Class: Bird (Base)
 ---------------------------------
 Properties:
@@ -109,7 +109,7 @@ Adds: Speak()
 
 📊 **Diagram**
 
-```plaintext
+```cpp
             Base Class
           ┌─────────────┐
           │    Bird     │
@@ -144,7 +144,7 @@ Achieved through:
 
 #### Example: CoffeeMaker
 
-```plaintext
+```cpp
 Class: CoffeeMaker (Base)
 ---------------------------------
 Methods:
@@ -164,7 +164,7 @@ Uses: Water() (as-is)
 
 📊 **Diagram**
 
-```plaintext
+```cpp
           Base Class
         ┌───────────────────┐
         │   CoffeeMaker     │

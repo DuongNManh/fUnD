@@ -11,7 +11,7 @@ Key ───►│ Hash Func  │──► Index ─► [ Key | Value ]
         └────────────┘
 ```
 
-![Hash Table Example](image-6.png)
+![Hash Table Example](hash_table_1.png)
 
 ✅ **Use case:** Ideal for **fast data lookups**, **associative arrays**, or **key-based retrieval**.
 
@@ -40,7 +40,7 @@ It’s used for:
 
 🔍 **Example:**
 
-```text
+```cpp
 Key:   "apple"
 Hash:  298374
 Index: 298374 % 10 = 4  → stored at index 4
@@ -59,12 +59,12 @@ Index: 298374 % 10 = 4  → stored at index 4
 A **collision** occurs when two keys are hashed to the same index.
 Example:
 
-```
+```cpp
 hash("apple") = 4
 hash("grape") = 4   ❌ Collision!
 ```
 
-![Collision example](image-7.png)
+![Collision example](hash_table_2.png)
 
 There are several strategies to handle collisions:
 
@@ -74,7 +74,7 @@ There are several strategies to handle collisions:
 
 If a slot is already taken, search **linearly** for the next empty slot.
 
-```
+```cpp
 Index: 0 1 2 3 4 5 6
 Value: A B   C D   E
                  ↑
@@ -138,7 +138,7 @@ int main() {
 
 Each slot of the table holds a **linked list** of elements that hash to the same index.
 
-```
+```cpp
 Index  |  Linked List
 0      |  NULL
 1      |  → [A] → [C]
@@ -263,7 +263,7 @@ the table **resizes** (usually doubles its size).
 | Order           | Unordered                    | Ordered                  |
 | Keys            | Flexible (string, int, etc.) | Numeric only             |
 
-<img src="image-5.png" alt="Arrays" width="400" height="200">
+<img src="hash_table_3.png" alt="Arrays" width="400" height="200">
 
 ---
 

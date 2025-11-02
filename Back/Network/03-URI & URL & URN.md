@@ -1,3 +1,5 @@
+# URI, URL & URN
+
 ## 🌐 URI (Uniform Resource Identifier)
 
 A **URI** is a specially formatted string that **identifies a resource** on the internet or a local network (LAN).

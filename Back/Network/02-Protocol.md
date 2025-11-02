@@ -1,10 +1,10 @@
-## 📦 Protocols
+# 📦 Protocols
 
 Protocols are **rules for packaging, sending, and receiving data** over a network.
 
 They ensure **communication compatibility** between client and server, even if they run on **different platforms**.
 
-### 🔁 TCP (Transmission Control Protocol)
+## 🔁 TCP (Transmission Control Protocol)
 
 - **Connection-based**: a reliable, continuous stream of data between two endpoints.
 - **Acknowledgment mechanism**: confirms delivery of each packet.
